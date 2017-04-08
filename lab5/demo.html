@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <title>插入表格</title>
+    </head>
+    <body>
+        <table border="1" cellspacing="0" align="center">
+        	<tr>
+        		<td width="79" bgcolor="#FFFFFF">用户名：</td>
+        		<td width="309" bgcolor="#FFFFFF"><input type="text"></td>
+        	</tr>
+            <tr>
+        		<td width="79" bgcolor="#FFFFFF">密码：</td>
+        		<td width="309" bgcolor="#FFFFFF"><input type="password" maxlength="10"></td>
+        	</tr>
+        	<tr>
+        		<td width="79" bgcolor="#FFFFFF">确认密码：</td>
+        		<td width="309" bgcolor="#FFFFFF"><input type="password" maxlength="10"></td>
+        	</tr>
+        	<tr>
+        		<td width="79" bgcolor="#FFFFFF">性别：</td>
+        		<td width="309" bgcolor="#FFFFFF"><input type="radio" name="sex">男 <input type="radio" name="sex">女</td>
+        	</tr>
+        	<tr>
+        		<td width="79" bgcolor="#FFFFFF">生日：</td>
+        		<td width="309" bgcolor="#FFFFFF">
+        			<select>
+        				<option value="公历">公历</option>
+        			</select>
+        			<select>
+        				<option value="年">年</option>
+        			</select>
+        			<select>
+        				<option value="月">月</option>
+        			</select>
+        			<select>
+        				<option value="日">日</option>
+        			</select>
+        		</td>
+        	</tr>
+        	<tr>
+        		<td width="79" bgcolor="#FFFFFF">所在地：</td>
+        		<td width="309" bgcolor="#FFFFFF">
+        			<select>
+        				<option value="中国">中国</option>
+        			</select>
+        			<select>
+        				<option value="河北">河北</option>
+        			</select>
+        			<select>
+        				<option value="石家庄">石家庄</option>
+        			</select>
+        		</td>
+        	</tr>
+        	<tr>
+        		<td width="79" bgcolor="#FFFFFF">验证码：</td>
+        		<td width="309" bgcolor="#FFFFFF"><input type="text"><img src="images/yanzhengma.jpg" width="69" height="20"></td>
+        	</tr>
+        	<tr>
+        		<td width="79" bgcolor="#FFFFFF">证件类型：</td>
+        		<td width="309" bgcolor="#FFFFFF">
+        			<select>
+        				<option value="身份证">身份证</option>
+        			</select>
+        		</td>
+        	</tr>
+        	<tr>
+        		<td width="79" bgcolor="#FFFFFF">证件号：</td>
+        		<td width="309" bgcolor="#FFFFFF"><input type="text" maxlength="18"></td>
+        	</tr>
+        	<tr>
+        		<td width="79" bgcolor="#FFFFFF">爱好：</td>
+        		<td width="309" bgcolor="#FFFFFF">
+        			<input type="checkbox" name="like">音乐
+                    <input type="checkbox" name="like">读书
+                    <input type="checkbox" name="like">跳舞
+                    <input type="checkbox" name="like">下棋
+                    <input type="checkbox" name="like">其他
+        		</td>
+        	</tr>
+        	<tr>
+        		<td width="79" bgcolor="#FFFFFF">说明</td>
+        		<td width="309" bgcolor="#FFFFFF">
+                    <textarea rows="6" cols="25">文本</textarea>
+        		</td>
+        	</tr>
+        	<tr>
+        		<td width="79" bgcolor="#FFFFFF">上传头像</td>
+        		<td width="309" bgcolor="#FFFFFF">
+        			<input type="file">
+        		</td>
+        	</tr>
+        	<tr>
+        		<td colspan="2" bgcolor="#FFFFFF" align="center">
+        			<input type="submit" value="提交"><input type="reset" value="重置"><input type="button" value="按钮">
+        		</td>
+        	</tr>
+        </table>
+    </body>
+</html>
