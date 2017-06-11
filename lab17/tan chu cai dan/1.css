@@ -1,0 +1,23 @@
+.menu{
+	margin: auto;
+	width: auto;
+	height: auto;
+	position: relative;
+}
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	text-direction: none;
+}
+.menu ul li ul {
+	display: none;
+}
+.menu ul li:hover ul {
+	display: block;
+}
